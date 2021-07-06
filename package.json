@@ -1,5 +1,5 @@
 {
-  "name": "signot-error-messages",
+  "name": "error-msgs",
   "version": "1.0.0",
   "description": "Libreria de mensajes y logs de signot 1.0.0",
   "main": "lib/index.js",
@@ -10,7 +10,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "author": "SIGNOT",
   "license": "ISC",
