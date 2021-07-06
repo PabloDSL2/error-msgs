@@ -1,0 +1,23 @@
+{
+  "name": "signot-error-messages",
+  "version": "1.0.0",
+  "description": "Libreria de mensajes y logs de signot 1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "SIGNOT",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "http-status-codes": "^2.1.4"
+  }
+}
